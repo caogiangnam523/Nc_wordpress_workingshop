@@ -1,0 +1,126 @@
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP1 START @ 01:45:25
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+VERSION:	0.5.22
+PHP:		5.3.29 | SAPI: cgi-fcgi
+SERVER:		Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4
+DOC ROOT:	/home/byconsol/public_html/testserver/6003
+DOC ROOT 755:	true
+LOG FILE 644:	true
+BUILD NAME:	samplestarterkit05292015_55689047e8fce5447150529161359
+REQUEST URL:	http://testserver.byconsole.com/6003/installer.php
+
+********************************************************************************
+ARCHIVE SETUP
+********************************************************************************
+NAME:	installer_v2.01.zip
+SIZE:	52.7MB
+ZIP:	Enabled (ZipArchive Support)
+
+** PACKAGE EXTRACTION IS IN MANUAL MODE ** 
+
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to .orig
+- Reset of .htaccess/web.config files
+
+UPDATED FILES:
+- SQL FILE:  '/home/byconsol/public_html/testserver/6003/installer-data.sql'
+- WP-CONFIG: '/home/byconsol/public_html/testserver/6003/wp-config.php'
+
+ARCHIVE RUNTIME: 0.2902 sec.
+
+
+********************************************************************************
+DATABASE-ROUTINES
+********************************************************************************
+--------------------------------------
+SERVER ENVIROMENT
+--------------------------------------
+MYSQL VERSION:	5.5.42-cll
+TIMEOUT:	5000
+MAXPACK:	268435456
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+DROP TABLE:	removed (23) tables
+QUERIES RAN:	3018
+
+wp_baguettedurompointcommentmeta: (0)
+wp_baguettedurompointcomments: (6)
+wp_baguettedurompointduplicator_packages: (3)
+wp_baguettedurompointlinks: (0)
+wp_baguettedurompointoptions: (227)
+wp_baguettedurompointpostmeta: (1006)
+wp_baguettedurompointposts: (86)
+wp_baguettedurompointterm_relationships: (20)
+wp_baguettedurompointterm_taxonomy: (4)
+wp_baguettedurompointterms: (4)
+wp_baguettedurompointusermeta: (96)
+wp_baguettedurompointusers: (7)
+wp_titaniumcommentmeta: (0)
+wp_titaniumcomments: (6)
+wp_titaniumlinks: (0)
+wp_titaniumoptions: (147)
+wp_titaniumpostmeta: (1185)
+wp_titaniumposts: (68)
+wp_titaniumterm_relationships: (27)
+wp_titaniumterm_taxonomy: (5)
+wp_titaniumterms: (5)
+wp_titaniumusermeta: (85)
+wp_titaniumusers: (6)
+Removed '29' cache/transient rows
+
+SECTION RUNTIME: 0.8125 sec.
+
+********************************************************************************
+STEP1 COMPLETE @ 01:45:26 - TOTAL RUNTIME: 1.1463 sec.
+********************************************************************************
+
+
+
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP2 START @ 01:45:39
+NOTICE: Do not post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	 latin1 
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+--------------------------------------
+SEARCH1:	'http://samples.msol3.com' 
+REPLACE1:	'http://testserver.byconsole.com/6003' 
+SEARCH2:	'/home/msol3/public_html/samples/' 
+REPLACE2:	'/home/byconsol/public_html/testserver/6003/' 
+SCANNED:	Tables:0 | Rows:0 | Cells:0 
+UPDATED:	Tables:0 | Rows:0 |Cells:0 
+ERRORS:		0 
+RUNTIME:	0.000000 sec
+
+********************************************************************************
+START FINAL CLEANUP: 01:45:39
+********************************************************************************
+NEW WP-ADMIN USER: New username 'admin' was created successfully 
+ 
+UPDATE `wp_baguettedurompointblogs` SET domain = 'testserver.byconsole.com' WHERE domain = 'samples.msol3.com'
+
+--------------------------------------
+WARNINGS
+--------------------------------------
+No Warnings Found
+
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+created basic .htaccess file.  If using IIS web.config this process will need to be done manually.
+********************************************************************************
+STEP 2 COMPLETE @ 01:45:39 - TOTAL RUNTIME: 0.0095 sec.
+********************************************************************************
